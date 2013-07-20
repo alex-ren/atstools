@@ -14,7 +14,12 @@ bin/atslib
 bin/atsopt
 bin/atspack
 bootstrap0/atsopt
-bootstrap1/
+bootstrap1/*.c
+bootstrap1/*.h
+bootstrap1/*.cats
+bootstrap1/atsopt
+bootstrap1/atsopt_gc
+
 ccomp/lib64/libats.a
 ccomp/lib64/libats_lex.a
 ccomp/lib64/libats_mt.a
