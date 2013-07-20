@@ -196,6 +196,9 @@ dynload "ats_ccomp_trans_temp.dats"
 dynload "ats_ccomp_emit.dats"
 dynload "ats_ccomp_main.dats"
 //
+// added by atstools
+dynload "atstools_hiexp.dats"
+//
 (* ****** ****** *)
 
 staload Deb = "ats_debug.sats"
@@ -224,6 +227,10 @@ staload TransEnv3 = "ats_trans3_env.sats"
 staload CSTR = "ats_constraint.sats"
 staload Trans4 = "ats_trans4.sats"
 staload CC = "ats_ccomp.sats"
+
+(* ****** ****** *)
+// added by atstools
+staload "atstools_hiexp.sats"
 
 (* ****** ****** *)
 //
@@ -501,6 +508,8 @@ param_t = @{
 , posmarknd= int
 //
 , typecheck_only= int
+// added by atstools
+, ctags= bool
 } // end of [param_t]
 
 (* ****** ****** *)
@@ -709,32 +718,53 @@ in
       val outname = stropt_unsome (outname)
       val file_mode_w = $extval (file_mode w, "\"w\"")
       val (pf_out | p_out) = fopen_exn (outname, file_mode_w)
-      val () = $CC.ccomp_main (pf_mod | flag, !p_out, infil, hids)
-      val () = fprintf1_exn (
-        pf_mod
-      | !p_out
-      , "\n/* ****** ****** */\n\n/* end of [%s] */\n"
-      , @(outname)
-      ) // end of [fprintf]
-      val () = if debug_flag > 0 then begin
-        print "The 5th translation (code emission) of [";
-        print basename;
-        print "] is successfully completed!";
-        print_newline ()
-      end // end of [if]
+      // added by atstools
     in
-      fclose_exn (pf_out | p_out)
-    end // end of [_ when ...]
+      // added by atstools
+      if param.ctags = true then let
+        val () = println! ("This is atstools working for file.")
+        // val () = fprint1_string (pf_mod | !p_out, "This is atstools in file.")
+        val () = atstools_generate_tags (pf_mod | !p_out, infil, hids)
+      in 
+        fclose_exn (pf_out | p_out)
+      end else let
+        val () = $CC.ccomp_main (pf_mod | flag, !p_out, infil, hids)
+        val () = fprintf1_exn (
+          pf_mod
+        | !p_out
+        , "\n/* ****** ****** */\n\n/* end of [%s] */\n"
+        , @(outname)
+        ) // end of [fprintf]
+        val () = if debug_flag > 0 then begin
+          print "The 5th translation (code emission) of [";
+          print basename;
+          print "] is successfully completed!";
+          print_newline ()
+        end // end of [if]
+      in
+        fclose_exn (pf_out | p_out)
+      end // end of [_ when ...]
+    end
   | _ => let
     prval pf_mod = file_mode_lte_w_w
     val (pf_stdout | p_stdout) = stdout_get ()
-    val () = $CC.ccomp_main
-      (pf_mod | flag, !p_stdout, infil, hids)
-    val () = fprint1_string
-      (pf_mod | !p_stdout, "\n/* ****** ****** */\n")
   in
-    stdout_view_set (pf_stdout | (*none*))
-  end // end of [_]
+    // added by atstools
+    if param.ctags = true then let
+      val () = fprint1_string (pf_mod | !p_stdout, "This is atstools working.\n")
+      val () = atstools_generate_tags (pf_mod | !p_out, infil, hids)
+yyy
+    in
+      stdout_view_set (pf_stdout | (*none*))
+    end else let
+      val () = $CC.ccomp_main
+        (pf_mod | flag, !p_stdout, infil, hids)
+      val () = fprint1_string
+        (pf_mod | !p_stdout, "\n/* ****** ****** */\n")
+    in
+      stdout_view_set (pf_stdout | (*none*))
+    end // end of [_]
+  end
 end // end of [do_trans1234]
 
 (* ****** ****** *)
@@ -973,6 +1003,8 @@ fun loop {i:nat | i <= n} .<i>. (
               param.comkind := COMKINDnone (); atsopt_usage (argv.[0])
             end // end of ["--help"]
           | "--version" => atsopt_version ()
+          // added by atstools
+          | "--ctags" => param.ctags := true
           | _ => warning (str)
         // end of [val]
       in
@@ -1115,6 +1147,8 @@ var param: param_t = @{
 , posmark= POSMARK_NONE
 , posmarknd= POSMARKND_NONE
 , typecheck_only= 0
+// added by 
+, ctags=false
 } // end of [var]
 
 val () = loop (ATSHOME, argv, param, arglst)
