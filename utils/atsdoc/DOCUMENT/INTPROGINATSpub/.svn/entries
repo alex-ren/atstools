@@ -1,0 +1,270 @@
+10
+
+dir
+3382
+svn://svn.code.sf.net/p/ats-lang/code/trunk/utils/atsdoc/DOCUMENT/INTPROGINATSpub
+svn://svn.code.sf.net/p/ats-lang/code
+
+
+
+2011-12-28T17:55:09.951356Z
+3042
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874467d7-7319-4ffd-9cf8-98d79fcd422a
+
+CHAPTER_SUMMARY_DEPTYPES
+dir
+
+CHAPTER_LIBRARIES
+dir
+
+CHAPTER_CINTERACT
+dir
+
+CHAPTER_THMPRVING
+dir
+
+CHAPTER_SUMMARY_PRACTICAL
+dir
+
+CHAPTER_DEPREFDTS
+dir
+
+CHAPTER_ABSVTYPES
+dir
+
+CHAPTER_EOP
+dir
+
+preface.db
+file
+
+
+
+
+2013-07-20T22:16:54.767853Z
+7dcb9e61c24555e8baa8fedab64ca7ed
+2011-12-28T17:55:09.951356Z
+3042
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4360
+
+CHAPTER_DATAVTYPES
+dir
+
+CHAPTER_SUMMARY_LINTYPES
+dir
+
+bookinfo.db
+file
+
+
+
+
+2013-07-20T22:16:54.771855Z
+bb1179074e096f4d8f38cb8e44ad1eb2
+2011-12-28T17:55:09.951356Z
+3042
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+846
+
+CHAPTER_DATAVIEWS
+dir
+
+CHAPTER_MODULARITY
+dir
+
+CHAPTER_PwTP
+dir
+
+CHAPTER_VVTINTRO
+dir
+
+CHAPTER_CONVENIENCE
+dir
+
+CHAPTER_START
+dir
+
+CHAPTER_DEPTYPES
+dir
+
+CHAPTER_DATATYPES
+dir
+
+CHAPTER_SUMMARY_BASIC
+dir
+
+HTML
+dir
+
+references.db
+file
+
+
+
+
+2013-07-20T22:16:54.786853Z
+841fb69730025807a7608e00b8b1e521
+2011-12-28T17:55:09.951356Z
+3042
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+655
+
+CHAPTER_POLYMORPHISM
+dir
+
+main.db
+file
+
+
+
+
+2013-07-20T22:16:54.790855Z
+1a3b3fe71b8d37e85117c2d43d2c02c7
+2011-12-28T17:55:09.951356Z
+3042
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3128
+
+CHAPTER_EFFECTFUL
+dir
+
+PDF
+dir
+
+Makefile
+file
+
+
+
+
+2013-07-20T22:16:54.794855Z
+cbac818e19029577da1f2ff5c18f5732
+2011-12-28T17:54:11.281814Z
+3041
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+351
+
+CHAPTER_FUNCTIONS
+dir
+

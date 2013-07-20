@@ -1,0 +1,80 @@
+10
+
+dir
+3382
+svn://svn.code.sf.net/p/ats-lang/code/trunk/contrib/linux
+svn://svn.code.sf.net/p/ats-lang/code
+
+
+
+2011-12-17T07:12:23.075458Z
+3022
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874467d7-7319-4ffd-9cf8-98d79fcd422a
+
+linux
+dir
+
+asm
+dir
+
+include
+dir
+
+CATS
+dir
+
+SATS
+dir
+
+DATS
+dir
+
+basics.sats
+file
+
+
+
+
+2013-07-20T22:17:19.880651Z
+fd61b7ae142ac033be8fad6c47d669ab
+2011-03-19T23:22:24.118514Z
+2572
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2213
+

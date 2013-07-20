@@ -1,0 +1,137 @@
+10
+
+dir
+3382
+svn://svn.code.sf.net/p/ats-lang/code/trunk/contrib
+svn://svn.code.sf.net/p/ats-lang/code
+
+
+
+2013-04-27T22:00:31.767976Z
+3373
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874467d7-7319-4ffd-9cf8-98d79fcd422a
+
+JNI
+dir
+
+atswebpage
+dir
+
+SDL
+dir
+
+Clutter
+dir
+
+parcomb
+dir
+
+cblas
+dir
+
+GTK
+dir
+
+gsl
+dir
+
+Makefile_ctrb
+file
+
+
+
+
+2013-07-20T22:17:29.676962Z
+d1b1535bfbea74180482126d12a2f385
+2011-12-22T04:12:35.169861Z
+3035
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+896
+
+atspslide
+dir
+
+gtkglext
+dir
+
+graphviz
+dir
+
+cairo
+dir
+
+clapack
+dir
+
+linux
+dir
+
+GL
+dir
+
+FUSE
+dir
+
+scripting
+dir
+
+pango
+dir
+
+cURL
+dir
+
+mysql
+dir
+
+X11
+dir
+
+jansson
+dir
+
+glib
+dir
+
+testing
+dir
+
+zeromq
+dir
+

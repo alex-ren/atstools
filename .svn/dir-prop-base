@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 86
+bootstrap0	https://ats-lang.svn.sourceforge.net/svnroot/ats-lang/bootstrap/anairiats/
+
+END

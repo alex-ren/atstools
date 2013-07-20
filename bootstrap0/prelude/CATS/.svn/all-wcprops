@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/ats-lang/!svn/ver/2461/bootstrap/anairiats/prelude/CATS
+END
+lazy_vt.cats
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/lazy_vt.cats
+END
+bool.cats
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/ats-lang/!svn/ver/2461/bootstrap/anairiats/prelude/CATS/bool.cats
+END
+integer.cats
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/integer.cats
+END
+reference.cats
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/ats-lang/!svn/ver/320/bootstrap/anairiats/prelude/CATS/reference.cats
+END
+printf.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/printf.cats
+END
+byte.cats
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/byte.cats
+END
+matrix.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/1581/bootstrap/anairiats/prelude/CATS/matrix.cats
+END
+basics.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/basics.cats
+END
+float.cats
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/float.cats
+END
+string.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/string.cats
+END
+option.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/option.cats
+END
+list.cats
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/ats-lang/!svn/ver/1581/bootstrap/anairiats/prelude/CATS/list.cats
+END
+integer_fixed.cats
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/integer_fixed.cats
+END
+sizetype.cats
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/sizetype.cats
+END
+char.cats
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/char.cats
+END
+array.cats
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/ats-lang/!svn/ver/1581/bootstrap/anairiats/prelude/CATS/array.cats
+END
+lazy.cats
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/lazy.cats
+END
+pointer.cats
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/pointer.cats
+END
+integer_ptr.cats
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/prelude/CATS/integer_ptr.cats
+END
+list_vt.cats
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/ats-lang/!svn/ver/320/bootstrap/anairiats/prelude/CATS/list_vt.cats
+END

@@ -1,0 +1,357 @@
+10
+
+dir
+3382
+svn://svn.code.sf.net/p/ats-lang/code/trunk/doc/EXAMPLE/ProjectEuler
+svn://svn.code.sf.net/p/ats-lang/code
+
+
+
+2013-03-05T02:28:01.190925Z
+3352
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874467d7-7319-4ffd-9cf8-98d79fcd422a
+
+PE-problem58
+dir
+
+PE-problem94
+dir
+
+PE-problem97
+dir
+
+PE-problem20
+dir
+
+PE-problem21
+dir
+
+PE-problem22
+dir
+
+PE-problem23
+dir
+
+PE-problem24
+dir
+
+PE-problem60
+dir
+
+PE-problem25
+dir
+
+PE-problem26
+dir
+
+PE-problem27
+dir
+
+PE-problem63
+dir
+
+PE-problem28
+dir
+
+PE-problem29
+dir
+
+PE-problem65
+dir
+
+Makefile
+file
+
+
+
+
+2013-07-20T22:16:23.268851Z
+563d32065bc3764abd1cca14524ccf6b
+2011-08-09T22:54:00.501834Z
+2670
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17761
+
+PE-problem66
+dir
+
+PE-problem69
+dir
+
+PE-problem100
+dir
+
+PE-problem301
+dir
+
+PE-problem104
+dir
+
+PE-problem108
+dir
+
+PE-problem145
+dir
+
+PE-problem30
+dir
+
+PE-problem31
+dir
+
+PE-problem32
+dir
+
+PE-problem33
+dir
+
+PE-problem34
+dir
+
+PE-problem35
+dir
+
+PE-problem71
+dir
+
+PE-problem36
+dir
+
+PE-problem37
+dir
+
+PE-problem73
+dir
+
+PE-problem38
+dir
+
+PE-problem39
+dir
+
+PE-problem75
+dir
+
+PE-problem76
+dir
+
+PE-problem77
+dir
+
+PE-problem78
+dir
+
+PE-problem1
+dir
+
+PE-problem110
+dir
+
+PE-problem2
+dir
+
+PE-problem3
+dir
+
+PE-problem4
+dir
+
+PE-problem5
+dir
+
+PE-problem6
+dir
+
+PE-problem7
+dir
+
+PE-problem8
+dir
+
+PE-problem9
+dir
+
+PE-problem157
+dir
+
+PE-problem40
+dir
+
+PE-problem41
+dir
+
+PE-problem42
+dir
+
+PE-problem43
+dir
+
+PE-problem44
+dir
+
+PE-problem80
+dir
+
+PE-problem45
+dir
+
+PE-problem46
+dir
+
+PE-problem47
+dir
+
+PE-problem48
+dir
+
+PE-problem49
+dir
+
+PE-problem120
+dir
+
+PE-problem122
+dir
+
+PE-problem123
+dir
+
+PE-problem125
+dir
+
+PE-problem162
+dir
+
+PE-problem164
+dir
+
+README
+file
+
+
+
+
+2013-07-20T22:16:23.272852Z
+61899bcf31a59e4ae2c1360a2e8e5494
+2010-12-27T22:11:00.536959Z
+2346
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1988
+
+utils
+dir
+
+PE-problem169
+dir
+
+PE-problem10
+dir
+
+PE-problem11
+dir
+
+PE-problem12
+dir
+
+PE-problem13
+dir
+
+PE-problem50
+dir
+
+PE-problem14
+dir
+
+PE-problem51
+dir
+
+PE-problem15
+dir
+
+PE-problem52
+dir
+
+PE-problem16
+dir
+
+PE-problem53
+dir
+
+PE-problem17
+dir
+
+PE-problem18
+dir
+
+PE-problem19
+dir
+
+PE-problem55
+dir
+
+PE-problem56
+dir
+
+PE-problem92
+dir
+
+PE-problem57
+dir
+

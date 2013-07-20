@@ -1,0 +1,64 @@
+10
+
+dir
+3382
+svn://svn.code.sf.net/p/ats-lang/code/trunk/utils
+svn://svn.code.sf.net/p/ats-lang/code
+
+
+
+2013-06-19T22:53:02.676854Z
+3379
+ats-hwxi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+874467d7-7319-4ffd-9cf8-98d79fcd422a
+
+atslex
+dir
+
+xref
+dir
+
+atsui
+dir
+
+atsyacc
+dir
+
+scripts
+dir
+
+emacs
+dir
+
+atside
+dir
+
+atsyntax
+dir
+
+vim
+dir
+
+atsdoc
+dir
+
+latex
+dir
+
+atsgrammar
+dir
+

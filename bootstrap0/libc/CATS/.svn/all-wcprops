@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/libc/CATS
+END
+time.cats
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/libc/CATS/time.cats
+END
+stdlib.cats
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/libc/CATS/stdlib.cats
+END
+stdio.cats
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/libc/CATS/stdio.cats
+END
+gmp.cats
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/ats-lang/!svn/ver/2043/bootstrap/anairiats/libc/CATS/gmp.cats
+END
