@@ -58,7 +58,7 @@ staload "ats_hiexp.sats"
 fun atstools_generate_tags 
   {m:file_mode} (
   pf: file_mode_lte (m, w) 
-| out: &FILE m,
+| out: &FILE m
 , fil: fil_t
 , hids: hideclst
 ): void // end of [atstools_generate_tags]

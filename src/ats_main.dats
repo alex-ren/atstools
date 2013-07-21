@@ -718,6 +718,15 @@ in
       val outname = stropt_unsome (outname)
       val file_mode_w = $extval (file_mode w, "\"w\"")
       val (pf_out | p_out) = fopen_exn (outname, file_mode_w)
+  in
+    // added by atstools
+    if param.ctags = true then let
+      val () = println! ("This is atstools working for file.")
+      // val () = fprint1_string (pf_mod | !p_out, "This is atstools in file.")
+      val () = atstools_generate_tags (pf_mod | !p_out, infil, hids)
+    in 
+      fclose_exn (pf_out | p_out)
+    end else let
       val () = $CC.ccomp_main (pf_mod | flag, !p_out, infil, hids)
       val () = fprintf1_exn (
         pf_mod
@@ -733,53 +742,16 @@ in
       end // end of [if]
     in
       fclose_exn (pf_out | p_out)
-    end // end of [_ when ...]
-  | _ => let
-    prval pf_mod = file_mode_lte_w_w
-    val (pf_stdout | p_stdout) = stdout_get ()
-    val () = $CC.ccomp_main
-      (pf_mod | flag, !p_stdout, infil, hids)
-    val () = fprint1_string
-      (pf_mod | !p_stdout, "\n/* ****** ****** */\n")
-  in
-    stdout_view_set (pf_stdout | (*none*))
-  end // end of [_]
-      // added by atstools
-    in
-      // added by atstools
-      if param.ctags = true then let
-        val () = println! ("This is atstools working for file.")
-        // val () = fprint1_string (pf_mod | !p_out, "This is atstools in file.")
-        val () = atstools_generate_tags (pf_mod | !p_out, infil, hids)
-      in 
-        fclose_exn (pf_out | p_out)
-      end else let
-        val () = $CC.ccomp_main (pf_mod | flag, !p_out, infil, hids)
-        val () = fprintf1_exn (
-          pf_mod
-        | !p_out
-        , "\n/* ****** ****** */\n\n/* end of [%s] */\n"
-        , @(outname)
-        ) // end of [fprintf]
-        val () = if debug_flag > 0 then begin
-          print "The 5th translation (code emission) of [";
-          print basename;
-          print "] is successfully completed!";
-          print_newline ()
-        end // end of [if]
-      in
-        fclose_exn (pf_out | p_out)
-      end // end of [_ when ...]
-    end
+    end // end of [else]
+  end
   | _ => let
     prval pf_mod = file_mode_lte_w_w
     val (pf_stdout | p_stdout) = stdout_get ()
   in
     // added by atstools
     if param.ctags = true then let
-      val () = fprint1_string (pf_mod | !p_stdout, "This is atstools working.\n")
-      val () = atstools_generate_tags (pf_mod | !p_out, infil, hids)
-yyy
+      val () = fprint1_string (pf_mod | !p_stdout, "This is atstoolsxxxxxxxxxxxxxxxxxxxxxxxxxx working.\n")
+      val () = atstools_generate_tags (pf_mod | !p_stdout, infil, hids)
     in
       stdout_view_set (pf_stdout | (*none*))
     end else let
