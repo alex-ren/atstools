@@ -750,7 +750,7 @@ in
   in
     // added by atstools
     if param.ctags = true then let
-      val () = fprint1_string (pf_mod | !p_stdout, "This is atstoolsxxxxxxxxxxxxxxxxxxxxxxxxxx working.\n")
+      val () = fprint1_string (pf_mod | !p_stdout, "This is atstools working.\n")
       val () = atstools_generate_tags (pf_mod | !p_stdout, infil, hids)
     in
       stdout_view_set (pf_stdout | (*none*))

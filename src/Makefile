@@ -197,6 +197,8 @@ SOURCES := \
   ats_ccomp_trans_clau.dats \
   ats_ccomp_trans_tailcal.dats \
   ats_ccomp_trans_temp.dats \
+  atstools_hiexp.sats \
+  atstools_hiexp.dats \
   ats_ccomp_emit.dats \
   ats_ccomp_main.dats
 
